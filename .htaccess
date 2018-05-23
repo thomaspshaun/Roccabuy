@@ -1,5 +1,6 @@
-
 # BEGIN WordPress
+ErrorDocument 401 /path-to-your-site/index.php?error=404
+ErrorDocument 403 /path-to-your-site/index.php?error=404
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /roccabuy/
@@ -7,6 +8,10 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /roccabuy/index.php [L]
+RewriteCond %{REQUEST_URI} ^(.*)?wp-login\.php(.*)$ [OR]
+RewriteCond %{REQUEST_URI} ^(.*)?wp-admin$
+RewriteCond %{REMOTE_ADDR} !^129.205.136.243$
+RewriteRule ^(.*)$ - [R=403,L]
 </IfModule>
 
 # END WordPress

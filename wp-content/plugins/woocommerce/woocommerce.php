@@ -3,10 +3,9 @@
  * Plugin Name: WooCommerce
  * Plugin URI: https://woocommerce.com/
  * Description: An eCommerce toolkit that helps you sell anything. Beautifully.
- * Version: 3.3.5
+ * Version: 3.4.0
  * Author: Automattic
  * Author URI: https://woocommerce.com
- *
  * Text Domain: woocommerce
  * Domain Path: /i18n/languages/
  *
@@ -41,11 +40,3 @@ function wc() {
 
 // Global for backwards compatibility.
 $GLOBALS['woocommerce'] = wc();
-
-add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
-
-function custom_override_checkout_fields( $fields ) {
-unset($fields['billing']['billing_company']);
-unset($fields['shipping']['shipping_company']);
-return $fields;
-}
