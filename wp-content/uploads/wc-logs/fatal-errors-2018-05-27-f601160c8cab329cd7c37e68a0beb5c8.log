@@ -1,0 +1,63 @@
+2018-05-27T00:42:14+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-lite\includes\functions-compatibility.php:42
+Stack trace:
+#0 C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-invoice\dokan-invoice.php(244): dokan_get_prop(false, 'id')
+#1 C:\xampp\htdocs\roccabuy\wp-includes\class-wp-hook.php(288): Dokan_Invoice->wpo_wcpdf_add_dokan_shop_name('Roccabuy')
+#2 C:\xampp\htdocs\roccabuy\wp-includes\plugin.php(203): WP_Hook->apply_filters('Roccabuy', Array)
+#3 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(422): apply_filters('wpo_wcpdf_shop_...', 'Roccabuy', Object(WPO\WC\PDF_Invoices\Documents\Invoice))
+#4 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(433): WPO\WC\PDF_Invoices\Documents\Order_Document->get_settings_text('shop_name', 'Roccabuy', false)
+#5 C:\xampp\htdocs\roccabuy\wp-conten
+
+2018-05-27T00:42:19+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-lite\includes\functions-compatibility.php:42
+Stack trace:
+#0 C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-invoice\dokan-invoice.php(244): dokan_get_prop(false, 'id')
+#1 C:\xampp\htdocs\roccabuy\wp-includes\class-wp-hook.php(288): Dokan_Invoice->wpo_wcpdf_add_dokan_shop_name('Roccabuy')
+#2 C:\xampp\htdocs\roccabuy\wp-includes\plugin.php(203): WP_Hook->apply_filters('Roccabuy', Array)
+#3 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(422): apply_filters('wpo_wcpdf_shop_...', 'Roccabuy', Object(WPO\WC\PDF_Invoices\Documents\Invoice))
+#4 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(433): WPO\WC\PDF_Invoices\Documents\Order_Document->get_settings_text('shop_name', 'Roccabuy', false)
+#5 C:\xampp\htdocs\roccabuy\wp-conten
+
+2018-05-27T00:42:48+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-lite\includes\functions-compatibility.php:42
+Stack trace:
+#0 C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-invoice\dokan-invoice.php(244): dokan_get_prop(false, 'id')
+#1 C:\xampp\htdocs\roccabuy\wp-includes\class-wp-hook.php(288): Dokan_Invoice->wpo_wcpdf_add_dokan_shop_name('Roccabuy')
+#2 C:\xampp\htdocs\roccabuy\wp-includes\plugin.php(203): WP_Hook->apply_filters('Roccabuy', Array)
+#3 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(422): apply_filters('wpo_wcpdf_shop_...', 'Roccabuy', Object(WPO\WC\PDF_Invoices\Documents\Invoice))
+#4 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(433): WPO\WC\PDF_Invoices\Documents\Order_Document->get_settings_text('shop_name', 'Roccabuy', false)
+#5 C:\xampp\htdocs\roccabuy\wp-conten
+
+2018-05-27T00:43:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-lite\includes\functions-compatibility.php:42
+Stack trace:
+#0 C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-invoice\dokan-invoice.php(244): dokan_get_prop(false, 'id')
+#1 C:\xampp\htdocs\roccabuy\wp-includes\class-wp-hook.php(288): Dokan_Invoice->wpo_wcpdf_add_dokan_shop_name('Roccabuy')
+#2 C:\xampp\htdocs\roccabuy\wp-includes\plugin.php(203): WP_Hook->apply_filters('Roccabuy', Array)
+#3 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(422): apply_filters('wpo_wcpdf_shop_...', 'Roccabuy', Object(WPO\WC\PDF_Invoices\Documents\Invoice))
+#4 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(433): WPO\WC\PDF_Invoices\Documents\Order_Document->get_settings_text('shop_name', 'Roccabuy', false)
+#5 C:\xampp\htdocs\roccabuy\wp-conten
+
+2018-05-27T00:43:42+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-lite\includes\functions-compatibility.php:42
+Stack trace:
+#0 C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-invoice\dokan-invoice.php(244): dokan_get_prop(false, 'id')
+#1 C:\xampp\htdocs\roccabuy\wp-includes\class-wp-hook.php(288): Dokan_Invoice->wpo_wcpdf_add_dokan_shop_name('Roccabuy')
+#2 C:\xampp\htdocs\roccabuy\wp-includes\plugin.php(203): WP_Hook->apply_filters('Roccabuy', Array)
+#3 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(422): apply_filters('wpo_wcpdf_shop_...', 'Roccabuy', Object(WPO\WC\PDF_Invoices\Documents\Invoice))
+#4 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(433): WPO\WC\PDF_Invoices\Documents\Order_Document->get_settings_text('shop_name', 'Roccabuy', false)
+#5 C:\xampp\htdocs\roccabuy\wp-conten
+
+2018-05-27T00:44:52+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-lite\includes\functions-compatibility.php:42
+Stack trace:
+#0 C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-invoice\dokan-invoice.php(244): dokan_get_prop(false, 'id')
+#1 C:\xampp\htdocs\roccabuy\wp-includes\class-wp-hook.php(288): Dokan_Invoice->wpo_wcpdf_add_dokan_shop_name('Roccabuy')
+#2 C:\xampp\htdocs\roccabuy\wp-includes\plugin.php(203): WP_Hook->apply_filters('Roccabuy', Array)
+#3 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(422): apply_filters('wpo_wcpdf_shop_...', 'Roccabuy', Object(WPO\WC\PDF_Invoices\Documents\Invoice))
+#4 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(433): WPO\WC\PDF_Invoices\Documents\Order_Document->get_settings_text('shop_name', 'Roccabuy', false)
+#5 C:\xampp\htdocs\roccabuy\wp-conten
+
+2018-05-27T00:45:44+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-lite\includes\functions-compatibility.php:42
+Stack trace:
+#0 C:\xampp\htdocs\roccabuy\wp-content\plugins\dokan-invoice\dokan-invoice.php(244): dokan_get_prop(false, 'id')
+#1 C:\xampp\htdocs\roccabuy\wp-includes\class-wp-hook.php(288): Dokan_Invoice->wpo_wcpdf_add_dokan_shop_name('Roccabuy')
+#2 C:\xampp\htdocs\roccabuy\wp-includes\plugin.php(203): WP_Hook->apply_filters('Roccabuy', Array)
+#3 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(422): apply_filters('wpo_wcpdf_shop_...', 'Roccabuy', Object(WPO\WC\PDF_Invoices\Documents\Invoice))
+#4 C:\xampp\htdocs\roccabuy\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\documents\abstract-wcpdf-order-document.php(433): WPO\WC\PDF_Invoices\Documents\Order_Document->get_settings_text('shop_name', 'Roccabuy', false)
+#5 C:\xampp\htdocs\roccabuy\wp-conten
+

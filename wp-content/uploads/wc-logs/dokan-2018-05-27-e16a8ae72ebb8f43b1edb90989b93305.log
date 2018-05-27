@@ -1,0 +1,32 @@
+2018-05-27T00:42:14+00:00 DEBUG New Order #146 created. Init sub order.
+2018-05-27T00:42:14+00:00 DEBUG 1 vendor only, skipping sub order.
+2018-05-27T00:42:19+00:00 DEBUG New Order #147 created. Init sub order.
+2018-05-27T00:42:19+00:00 DEBUG 1 vendor only, skipping sub order.
+2018-05-27T00:42:48+00:00 DEBUG New Order #148 created. Init sub order.
+2018-05-27T00:42:48+00:00 DEBUG 1 vendor only, skipping sub order.
+2018-05-27T00:43:17+00:00 DEBUG New Order #149 created. Init sub order.
+2018-05-27T00:43:17+00:00 DEBUG 1 vendor only, skipping sub order.
+2018-05-27T00:43:42+00:00 DEBUG New Order #150 created. Init sub order.
+2018-05-27T00:43:42+00:00 DEBUG 1 vendor only, skipping sub order.
+2018-05-27T00:45:43+00:00 DEBUG New Order #151 created. Init sub order.
+2018-05-27T00:45:43+00:00 DEBUG Got 2 vendors, starting sub order.
+2018-05-27T00:45:43+00:00 DEBUG Creating sub order for vendor: #3
+2018-05-27T00:45:43+00:00 DEBUG Created sub order : #152
+2018-05-27T00:45:43+00:00 DEBUG #152 - Creating Shipping.
+2018-05-27T00:45:43+00:00 DEBUG #152 - No shipping method found. Aborting.
+2018-05-27T00:45:43+00:00 DEBUG Creating sub order for vendor: #1
+2018-05-27T00:45:43+00:00 DEBUG Created sub order : #153
+2018-05-27T00:45:43+00:00 DEBUG #153 - Creating Shipping.
+2018-05-27T00:45:43+00:00 DEBUG #153 - No shipping method found. Aborting.
+2018-05-27T00:45:44+00:00 DEBUG Completed sub order for #151.
+2018-05-27T00:47:10+00:00 DEBUG New Order #154 created. Init sub order.
+2018-05-27T00:47:10+00:00 DEBUG Got 2 vendors, starting sub order.
+2018-05-27T00:47:10+00:00 DEBUG Creating sub order for vendor: #3
+2018-05-27T00:47:10+00:00 DEBUG Created sub order : #155
+2018-05-27T00:47:10+00:00 DEBUG #155 - Creating Shipping.
+2018-05-27T00:47:10+00:00 DEBUG #155 - No shipping method found. Aborting.
+2018-05-27T00:47:10+00:00 DEBUG Creating sub order for vendor: #1
+2018-05-27T00:47:10+00:00 DEBUG Created sub order : #156
+2018-05-27T00:47:10+00:00 DEBUG #156 - Creating Shipping.
+2018-05-27T00:47:10+00:00 DEBUG #156 - No shipping method found. Aborting.
+2018-05-27T00:47:10+00:00 DEBUG Completed sub order for #154.
