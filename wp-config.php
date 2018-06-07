@@ -80,7 +80,8 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-
+define( 'COOKIE_DOMAIN', 'localhost' ); 
+define( 'COOKIEHASH', md5( 'http://localhost/roccabuy/' ) ); 
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
