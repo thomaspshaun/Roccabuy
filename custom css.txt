@@ -1,0 +1,37 @@
+.required
+{
+	text-decoration: none;
+  color: transparent
+}
+
+
+.site-header {
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.woocommerce-active .site-header .site-search
+{
+	width:65%;
+	padding-top: 25px;
+}  
+
+	
+	.woocommerce-active .site-header .site-branding
+{
+	width: 30%
+	
+}
+
+.main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a {
+    padding-left: 1em;
+    padding-top: 0px;
+	    padding-bottom: 10px;
+}
+
+.site-header-cart .cart-contents
+{
+	padding-left: 1em;
+    padding-top: 0px;
+	    padding-bottom: 10px;
+}
